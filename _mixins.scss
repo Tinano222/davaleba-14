@@ -1,0 +1,53 @@
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+}
+
+@mixin p {
+    font-family: Helvetica;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+@mixin text{
+    top: -508px;
+    left: 89px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19.55px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgba(99, 96, 96, 1);
+}
+
+@mixin img {
+    width: 286px;
+    height: 195px;
+    top: 233px;
+    left: -301px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+@mixin h5 {
+    width: 162px;
+height: 22px;
+top: 451px;
+left: -301px;
+gap: 0px;
+opacity: 0px;
+font-family: Helvetica;
+font-size: 19px;
+font-weight: 400;
+line-height: 21.85px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(52, 50, 50, 1);
+
+}

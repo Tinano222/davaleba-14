@@ -1,0 +1,198 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header img {
+  width: 33px;
+  height: 42px;
+  gap: 0px;
+  margin-right: 800px;
+}
+header p {
+  top: -508px;
+  left: 89px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(99, 96, 96);
+}
+
+#s {
+  background-image: url("https://s3-alpha-sig.figma.com/img/8dd0/a521/be68616e61590a62c37a70d547c5921c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GmJDJcSwz030E5yuau-PxwpXzqQpiwZHNasWIrHMURoGZpj0XHJRVaPxcjpkMJe9Lmbw7wVwGdgyAw7wK2Jsk2e1q4n4ngfVzrONKWhdylGZbR7dEnouBFAahBS9gZKJ2vrnPOdyD-abAMZjaYl-5vzQT5KIOqRvEBs5TCtDqF2Qkih3l6Jj0AErCgexce18ipw5DWK-J-Cx33I6d7nBD6C0O1CUXBzozFUMNYoY8TitytcbeWGLfzokfDjDxudNTyqwD7LvufwH~JKhlcmDBBNNtZ0zP6NsJxS981izxfu6Pdxx1FrwpGUxDkOEOHH97mdqLcrvYwXvcSeANP2xxQ__");
+  position: relative;
+  display: flex;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#s #a {
+  width: 625px;
+  height: 91px;
+  top: -219px;
+  left: -312px;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 90.84px;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#s #n {
+  width: 333px;
+  height: 22px;
+  top: -97px;
+  left: -166px;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  color: rgb(255, 255, 255);
+  font-family: Helvetica;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+}
+div article p {
+  top: -508px;
+  left: 89px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(99, 96, 96);
+}
+div article h1 {
+  width: 214px;
+  height: 32px;
+  top: 262px;
+  left: -619px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.2px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(1, 1, 1);
+}
+div article p {
+  top: -508px;
+  left: 89px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(99, 96, 96);
+}
+div article img {
+  width: 286px;
+  height: 195px;
+  top: 233px;
+  left: -301px;
+  gap: 0px;
+  opacity: 0px;
+}
+div article h5 {
+  width: 162px;
+  height: 22px;
+  top: 451px;
+  left: -301px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(52, 50, 50);
+}
+div article p {
+  top: -508px;
+  left: 89px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgb(99, 96, 96);
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,107 @@
+@import "reset";
+@import "mixins";
+@import "variables";
+
+
+header {
+    @include flex ();
+    justify-content: space-evenly;
+
+    img {
+        width: 33px;
+        height: 42px;
+        gap: 0px;
+        margin-right: 800px; 
+        }
+    
+    p {
+        @include text ();
+      }
+       }
+
+
+       #s {
+        background-image: url("https://s3-alpha-sig.figma.com/img/8dd0/a521/be68616e61590a62c37a70d547c5921c?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GmJDJcSwz030E5yuau-PxwpXzqQpiwZHNasWIrHMURoGZpj0XHJRVaPxcjpkMJe9Lmbw7wVwGdgyAw7wK2Jsk2e1q4n4ngfVzrONKWhdylGZbR7dEnouBFAahBS9gZKJ2vrnPOdyD-abAMZjaYl-5vzQT5KIOqRvEBs5TCtDqF2Qkih3l6Jj0AErCgexce18ipw5DWK-J-Cx33I6d7nBD6C0O1CUXBzozFUMNYoY8TitytcbeWGLfzokfDjDxudNTyqwD7LvufwH~JKhlcmDBBNNtZ0zP6NsJxS981izxfu6Pdxx1FrwpGUxDkOEOHH97mdqLcrvYwXvcSeANP2xxQ__");
+        position: relative;
+        display: flex;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    
+        #a{
+            width: 625px;
+            height: 91px;
+            top: -219px;
+            left: -312px;
+            font-size: 79px;
+            font-weight: 700;
+            line-height: 90.84px;
+            color: $Color;
+            @include p ();
+        }
+    
+        #n {
+            width: 333px;
+            height: 22px;
+            top: -97px;
+            left: -166px;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 21.85px;
+            color: $Color;
+            @include p ();
+        }
+    }
+
+div {
+
+    @include flex ();
+    
+    article {
+        p{
+            @include text ();
+        }
+    
+        h1 {
+            width: 214px;
+            height: 32px;
+            top: 262px;
+            left: -619px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Helvetica;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 32.2px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: rgba(1, 1, 1, 1);
+           }
+    
+           p{
+            @include text();
+           }
+    
+           }
+    
+    article {
+        img {
+            @include img ();
+        }
+
+        h5 {
+            @include h5 ();
+        }
+
+        p {
+            @include text ();
+        }
+        
+    }
+        
+    
+}
